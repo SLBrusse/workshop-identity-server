@@ -11,22 +11,6 @@
   },
   {
     "ContainingType": "ResourceBackend.Controllers.SchoolInformationController",
-    "Method": "GetMyGrades",
-    "RelativePath": "school/grades/{naam}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "naam",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ResourceBackend.Controllers.SchoolInformationController",
     "Method": "GetLessons",
     "RelativePath": "school/lessons",
     "HttpMethod": "GET",
@@ -47,18 +31,12 @@
   },
   {
     "ContainingType": "ResourceBackend.Controllers.StudentInformationController",
-    "Method": "GetStudentInformation",
-    "RelativePath": "student/information/{naam}",
+    "Method": "GetAllStudentInformation",
+    "RelativePath": "student/information",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "naam",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

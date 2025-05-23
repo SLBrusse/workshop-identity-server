@@ -41,42 +41,10 @@
         }
       }
     },
-    "/school/grades/{naam}": {
-      "get": {
-        "tags": [
-          "SchoolInformation"
-        ],
-        "parameters": [
-          {
-            "name": "naam",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/student/information/{naam}": {
+    "/student/information": {
       "get": {
         "tags": [
           "StudentInformation"
-        ],
-        "parameters": [
-          {
-            "name": "naam",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "responses": {
           "200": {

@@ -6,6 +6,7 @@ function HomePage() {
   const [studentNames, setStudentNames] = useState([]);
   const [lessons, setLessons] = useState([]);
   const [grades, setGrades] = useState([]);
+  const [studentInfo, setStudentInfo] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -43,6 +44,18 @@ function HomePage() {
       .catch((err) => {
         console.error(err);
         setGrades([]);
+      });
+
+    // Fetch gevoelige informatie
+    fetch('https://localhost:7285/student/information')
+      .then((res) => {
+        if (!res.ok) throw new Error('Unauthorized or fetch error');
+        return res.json();
+      })
+      .then((data) => setStudentInfo(data))
+      .catch((err) => {
+        console.error(err);
+        setStudentInfo([]);
       });
   }, []);
 
@@ -95,6 +108,21 @@ function HomePage() {
               {grades.map((g, idx) => (
                 <li key={idx}>
                   {g.naam}: {g.cijfer}
+                </li>
+              ))}
+            </ul>
+            <hr className="my-4" style={{ width: '75%', margin: '0 auto' }} />
+          </>
+        )}
+
+        {/* Leerlingen Gevoelige Informatie */}
+        {studentInfo.length > 0 && (
+          <>
+            <h2 className="text-center mt-4 mb-3">Leerlingen Gevoelige Informatie</h2>
+            <ul className="text-center list-unstyled">
+              {studentInfo.map((s, idx) => (
+                <li key={idx}>
+                  {s.naam}: {s.informatie}
                 </li>
               ))}
             </ul>
