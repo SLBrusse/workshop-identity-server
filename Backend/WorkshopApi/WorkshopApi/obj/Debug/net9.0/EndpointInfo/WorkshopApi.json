@@ -5,71 +5,86 @@
     "version": "1.0"
   },
   "paths": {
-    "/WeatherForecast": {
+    "/school/students": {
       "get": {
         "tags": [
-          "WeatherForecast"
+          "SchoolInformation"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/school/lessons": {
+      "get": {
+        "tags": [
+          "SchoolInformation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/school/grades": {
+      "get": {
+        "tags": [
+          "SchoolInformation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/school/grades/{naam}": {
+      "get": {
+        "tags": [
+          "SchoolInformation"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/student/information/{naam}": {
+      "get": {
+        "tags": [
+          "StudentInformation"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
     }
   },
-  "components": {
-    "schemas": {
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      }
-    }
-  }
+  "components": { }
 }

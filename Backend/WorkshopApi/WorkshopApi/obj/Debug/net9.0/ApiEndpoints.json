@@ -1,23 +1,64 @@
 [
   {
-    "ContainingType": "WorkshopApi.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "ResourceBackend.Controllers.SchoolInformationController",
+    "Method": "GetAllGrades",
+    "RelativePath": "school/grades",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ResourceBackend.Controllers.SchoolInformationController",
+    "Method": "GetMyGrades",
+    "RelativePath": "school/grades/{naam}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WorkshopApi.WeatherForecast, WorkshopApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ResourceBackend.Controllers.SchoolInformationController",
+    "Method": "GetLessons",
+    "RelativePath": "school/lessons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ResourceBackend.Controllers.SchoolInformationController",
+    "Method": "GetStudentNames",
+    "RelativePath": "school/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ResourceBackend.Controllers.StudentInformationController",
+    "Method": "GetStudentInformation",
+    "RelativePath": "student/information/{naam}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
