@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\",
+  "WorkspaceRootPath": "C:\\School\\jaar 3\\s2\\WAP\\project\\idserver\\workshop-identity-server\\Backend\\WorkshopApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\controllers\\schoolinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|solutionrelative:workshopapi\\controllers\\schoolinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7057B25-C9DE-47B6-94BB-D2A0118A5FCD}|IdentityServer\\IdentityServer\\IdentityServer.csproj|c:\\school\\jaar 3\\s2\\wap\\project\\idserver\\workshop-identity-server\\backend\\workshopapi\\identityserver\\identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7057B25-C9DE-47B6-94BB-D2A0118A5FCD}|IdentityServer\\IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\controllers\\studentinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|solutionrelative:workshopapi\\controllers\\studentinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7057B25-C9DE-47B6-94BB-D2A0118A5FCD}|IdentityServer\\IdentityServer\\IdentityServer.csproj|c:\\school\\jaar 3\\s2\\wap\\project\\idserver\\workshop-identity-server\\backend\\workshopapi\\identityserver\\identityserver\\identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7057B25-C9DE-47B6-94BB-D2A0118A5FCD}|IdentityServer\\IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\identityserver\\identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +22,32 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1716899942:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentInformationController.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "RelativeToolTip": "WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:49:35.116Z",
+              "Title": "IdentityServer",
+              "DocumentMoniker": "C:\\School\\jaar 3\\s2\\WAP\\project\\idserver\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
+              "RelativeDocumentMoniker": "IdentityServer\\IdentityServer\\IdentityServer.csproj",
+              "ToolTip": "C:\\School\\jaar 3\\s2\\WAP\\project\\idserver\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
+              "RelativeToolTip": "IdentityServer\\IdentityServer\\IdentityServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T11:25:20.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SchoolInformationController.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
-              "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\SchoolInformationController.cs",
-              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
-              "RelativeToolTip": "WorkshopApi\\Controllers\\SchoolInformationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\School\\jaar 3\\s2\\WAP\\project\\idserver\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\IdentityServer\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\IdentityServer\\Program.cs",
+              "ToolTip": "C:\\School\\jaar 3\\s2\\WAP\\project\\idserver\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\IdentityServer\\Program.cs",
+              "RelativeToolTip": "IdentityServer\\IdentityServer\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:48:40.678Z",
+              "WhenOpened": "2025-05-23T11:24:17.388Z",
               "EditorCaption": ""
             }
           ]
