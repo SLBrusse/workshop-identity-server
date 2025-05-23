@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B0CE6CF-D649-46FC-8FC8-BB1AC1CF27AB}|IdentityServer\\IdentityServer.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\identityserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CE6CF-D649-46FC-8FC8-BB1AC1CF27AB}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B0CE6CF-D649-46FC-8FC8-BB1AC1CF27AB}|IdentityServer\\IdentityServer.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\identityserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B0CE6CF-D649-46FC-8FC8-BB1AC1CF27AB}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B0CE6CF-D649-46FC-8FC8-BB1AC1CF27AB}|IdentityServer\\IdentityServer.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\identityserver\\inmemoryusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B0CE6CF-D649-46FC-8FC8-BB1AC1CF27AB}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\inmemoryusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0CE6CF-D649-46FC-8FC8-BB1AC1CF27AB}|IdentityServer\\IdentityServer.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\identityserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0CE6CF-D649-46FC-8FC8-BB1AC1CF27AB}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\appsettings.json",
               "RelativeDocumentMoniker": "IdentityServer\\appsettings.json",
@@ -46,60 +46,56 @@
               "RelativeToolTip": "IdentityServer\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-23T10:04:50.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T10:04:50.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Program.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Program.cs",
               "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Program.cs",
               "RelativeToolTip": "IdentityServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:49:26.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T09:49:26.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Controllers\\AuthController.cs",
               "RelativeToolTip": "IdentityServer\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:48:51.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T09:48:51.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Models\\User.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Models\\User.cs",
               "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Models\\User.cs",
               "RelativeToolTip": "IdentityServer\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T09:48:20.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InMemoryUsers.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\InMemoryUsers.cs",
               "RelativeDocumentMoniker": "IdentityServer\\InMemoryUsers.cs",
               "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\InMemoryUsers.cs",
               "RelativeToolTip": "IdentityServer\\InMemoryUsers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:47:20.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T09:47:20.429Z"
             }
           ]
         }
