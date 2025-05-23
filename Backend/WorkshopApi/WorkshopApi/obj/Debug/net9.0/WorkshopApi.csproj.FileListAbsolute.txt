@@ -141,3 +141,11 @@ C:\School\jaar 3\s2\WAP\project\workshop-identity-server\Backend\WorkshopApi\Wor
 C:\School\jaar 3\s2\WAP\project\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\obj\Debug\net9.0\WorkshopApi.pdb
 C:\School\jaar 3\s2\WAP\project\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\obj\Debug\net9.0\WorkshopApi.genruntimeconfig.cache
 C:\School\jaar 3\s2\WAP\project\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\obj\Debug\net9.0\ref\WorkshopApi.dll
+C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\WorkshopApi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

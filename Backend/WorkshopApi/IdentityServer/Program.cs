@@ -1,5 +1,15 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 builder.Services.AddRazorPages(); // <-- toevoegen
 
 builder.Services.AddIdentityServer(options =>
@@ -15,7 +25,11 @@ builder.Services.AddIdentityServer(options =>
 .AddTestUsers(TestUsers.Users)
 .AddDeveloperSigningCredential();
 
+
 var app = builder.Build();
+
+
+app.UseCors("AllowReactApp");
 
 app.UseHttpsRedirection();
 
