@@ -21,14 +21,14 @@ namespace IdentityServer.Controllers
         public IActionResult Login([FromBody] LoginRequest request)
         {
             var user = InMemoryUsers.Users
-                .FirstOrDefault(u => u.Username == request.Username && u.Password == request.Password);
+                .FirstOrDefault(u => u.Name == request.Name && u.Password == request.Password);
 
             if (user == null)
                 return Unauthorized();
 
             var claims = new[]
             {
-                new Claim(ClaimTypes.Name, user.Username),
+                new Claim(ClaimTypes.Name, user.Name),
                 new Claim(ClaimTypes.Role, user.Role)
             };
 
@@ -49,7 +49,7 @@ namespace IdentityServer.Controllers
 
     public class LoginRequest
     {
-        public string Username { get; set; }
+        public string Name { get; set; }
         public string Password { get; set; }
     }
 }
