@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zONhYfntei8C4KBBkMZZnHnYWMs5Mf4efPgECEAoacQ=",
+  "Source": "WorkshopApi",
+  "BasePath": "_content/WorkshopApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
