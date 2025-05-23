@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\",
+  "WorkspaceRootPath": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\controllers\\schoolinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\school\\jaar 3\\s2\\wap\\project\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|solutionrelative:workshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\school\\jaar 3\\s2\\wap\\project\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\controllers\\schoolinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|solutionrelative:workshopapi\\controllers\\schoolinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\controllers\\studentinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\school\\jaar 3\\s2\\wap\\project\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\controllers\\studentinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|solutionrelative:workshopapi\\controllers\\studentinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,32 +26,45 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1716899942:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "Name": "ST:1716899942:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Program.cs",
+              "RelativeDocumentMoniker": "WorkshopApi\\Program.cs",
+              "ToolTip": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Program.cs",
+              "RelativeToolTip": "WorkshopApi\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:17:15.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SchoolInformationController.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
+              "DocumentMoniker": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
               "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\SchoolInformationController.cs",
-              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
+              "ToolTip": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
               "RelativeToolTip": "WorkshopApi\\Controllers\\SchoolInformationController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T12:12:20.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentInformationController.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
+              "DocumentMoniker": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
               "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
+              "ToolTip": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
               "RelativeToolTip": "WorkshopApi\\Controllers\\StudentInformationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

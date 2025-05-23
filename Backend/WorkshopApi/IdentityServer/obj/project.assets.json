@@ -521,23 +521,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kevin\\.nuget\\packages\\": {},
+    "C:\\Users\\stanb\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\IdentityServer.csproj",
+      "projectUniqueName": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\IdentityServer.csproj",
       "projectName": "IdentityServer",
-      "projectPath": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\IdentityServer.csproj",
-      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\obj\\",
+      "projectPath": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\stanb\\.nuget\\packages\\",
+      "outputPath": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -546,7 +546,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/miniprofiler/api/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
@@ -564,7 +565,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -598,7 +599,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

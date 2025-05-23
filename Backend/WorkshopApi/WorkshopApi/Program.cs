@@ -15,6 +15,33 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddOpenApi();
 
+
+
+
+
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
+    {
+        options.Authority = "https://localhost:7240"; // jouw IdentityServer URL
+        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+        {
+            ValidateAudience = false // of specificeer hier je API audience als je wil
+        };
+    });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireRole("admin")); // beleid voor admin role
+});
+
+
+
+
+
+
+
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -23,6 +50,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.MapOpenApi();
 }
+
 
 
 app.UseCors("AllowReactApp");
