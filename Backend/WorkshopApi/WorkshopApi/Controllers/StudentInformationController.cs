@@ -9,16 +9,14 @@ namespace ResourceBackend.Controllers
     [Route("student")]
     public class StudentInformationController : ControllerBase
     {
-        [HttpGet("information/{naam}")]
-        public IActionResult GetStudentInformation(string naam)
+        [HttpGet("information")]
+        public IActionResult GetAllStudentInformation()
         {
-            var leerling = InMemoryData.Leerlingen
-                .FirstOrDefault(l => l.Naam.Equals(naam, StringComparison.OrdinalIgnoreCase));
+            var result = InMemoryData.Leerlingen
+                .Select(l => new { l.Naam, l.Informatie })
+                .ToList();
 
-            if (leerling == null)
-                return NotFound("Leerling niet gevonden");
-
-            return Ok(new { leerling.Naam, leerling.Informatie });
+            return Ok(result);
         }
     }
 }

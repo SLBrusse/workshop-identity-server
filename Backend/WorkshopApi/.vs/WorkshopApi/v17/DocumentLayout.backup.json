@@ -25,16 +25,8 @@
               "Name": "ST:1716899942:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentInformationController.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "RelativeToolTip": "WorkshopApi\\Controllers\\StudentInformationController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:49:35.116Z"
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
@@ -44,9 +36,22 @@
               "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\SchoolInformationController.cs",
               "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
               "RelativeToolTip": "WorkshopApi\\Controllers\\SchoolInformationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:48:40.678Z",
+              "WhenOpened": "2025-05-23T12:12:20.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentInformationController.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
+              "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\StudentInformationController.cs",
+              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\StudentInformationController.cs",
+              "RelativeToolTip": "WorkshopApi\\Controllers\\StudentInformationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:11:36.76Z",
               "EditorCaption": ""
             }
           ]

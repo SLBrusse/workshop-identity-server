@@ -35,17 +35,5 @@ namespace ResourceBackend.Controllers
 
             return Ok(result);
         }
-
-        [HttpGet("grades/{naam}")]
-        public IActionResult GetMyGrades(string naam)
-        {
-            var leerling = InMemoryData.Leerlingen
-                .FirstOrDefault(l => l.Naam.Equals(naam, StringComparison.OrdinalIgnoreCase));
-
-            if (leerling == null)
-                return NotFound("Leerling niet gevonden");
-
-            return Ok(new { leerling.Naam, leerling.Cijfer });
-        }
     }
 }
