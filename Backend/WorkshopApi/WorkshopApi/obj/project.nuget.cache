@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EZnRSUpw15E=",
+  "dgSpecHash": "XzqSsD1f1B0=",
   "success": true,
-  "projectFilePath": "C:\\School\\jaar 3\\s2\\WAP\\project\\idserver\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\WorkshopApi.csproj",
+  "projectFilePath": "C:\\School\\jaar 3\\s2\\WAP\\project\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\WorkshopApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanb\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
     "C:\\Users\\stanb\\.nuget\\packages\\microsoft.aspnet.webapi.core\\4.0.20710\\microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",
