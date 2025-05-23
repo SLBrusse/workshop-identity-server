@@ -3,6 +3,7 @@ using WorkshopApi.Data;
 using WorkshopApi.Models;
 using System.Linq;
 using WorkshopApi.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ResourceBackend.Controllers
 {
@@ -11,6 +12,7 @@ namespace ResourceBackend.Controllers
     public class SchoolInformationController : ControllerBase
     {
         [HttpGet("students")]
+        [Authorize(Policy = "AdminOnly")]
         public IActionResult GetStudentNames()
         {
             var namen = InMemoryData.Leerlingen

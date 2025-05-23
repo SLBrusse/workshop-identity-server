@@ -2,16 +2,50 @@ import React, { useEffect, useState } from 'react';
 import { Container, Navbar, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
+function parseJwt(token) {
+  try {
+    const base64Url = token.split('.')[1];
+    const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    const jsonPayload = decodeURIComponent(
+      atob(base64)
+        .split('')
+        .map((c) => '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2))
+        .join('')
+    );
+    return JSON.parse(jsonPayload);
+  } catch (e) {
+    return null;
+  }
+}
+
 function HomePage() {
   const [studentNames, setStudentNames] = useState([]);
   const [lessons, setLessons] = useState([]);
   const [grades, setGrades] = useState([]);
   const [studentInfo, setStudentInfo] = useState([]);
+  const [username, setUsername] = useState('');
+  const [role, setRole] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/');
+      return;
+    }
+
+    const payload = parseJwt(token);
+    if (payload) {
+      setUsername(payload.name || 'Onbekend');
+      setRole(payload.role || 'Geen rol');
+    }
+
+    const headers = {
+      'Authorization': `Bearer ${token}`,
+    };
+
     // Fetch studenten
-    fetch('https://localhost:7285/school/students')
+    fetch('https://localhost:7285/school/students', { headers })
       .then((res) => {
         if (!res.ok) throw new Error('Unauthorized or fetch error');
         return res.json();
@@ -23,7 +57,7 @@ function HomePage() {
       });
 
     // Fetch lessen
-    fetch('https://localhost:7285/school/lessons')
+    fetch('https://localhost:7285/school/lessons', { headers })
       .then((res) => {
         if (!res.ok) throw new Error('Unauthorized or fetch error');
         return res.json();
@@ -35,7 +69,7 @@ function HomePage() {
       });
 
     // Fetch cijfers
-    fetch('https://localhost:7285/school/grades')
+    fetch('https://localhost:7285/school/grades', { headers })
       .then((res) => {
         if (!res.ok) throw new Error('Unauthorized or fetch error');
         return res.json();
@@ -47,7 +81,7 @@ function HomePage() {
       });
 
     // Fetch gevoelige informatie
-    fetch('https://localhost:7285/student/information')
+    fetch('https://localhost:7285/student/information', { headers })
       .then((res) => {
         if (!res.ok) throw new Error('Unauthorized or fetch error');
         return res.json();
@@ -57,14 +91,16 @@ function HomePage() {
         console.error(err);
         setStudentInfo([]);
       });
-  }, []);
+  }, [navigate]);
 
   return (
     <>
       {/* HEADER */}
       <Navbar bg="primary" variant="dark" className="px-3">
         <Navbar.Brand href="/">Workshop</Navbar.Brand>
-        <div className="mx-auto text-white">naam</div>
+        <div className="mx-auto text-white">
+          Ingelogd als: <strong>{username}</strong> ({role})
+        </div>
         <Button variant="outline-light" onClick={() => navigate('/')}>
           Uitloggen
         </Button>
