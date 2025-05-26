@@ -55,4 +55,7 @@ Op de landingspagina zie je dat je allerlei informatie te zien krijgt, waaronder
 - Open nu de Controllers. Gebruik `Authorize` bij de endpoints om ervoor te zorgen dat alleen die rol dat endpoint op kan halen. Tip: je kan meerdere rollen hierbij toevoegen.
 - Doe dit voor ieder endpoint. Log in op de 4 mogelijke accounts (met verschillende rollen) en kijk of je de gevoelige informatie nu succesvol hebt afgeschermd. 
 
+## Bonus!
+- Voeg nog een endpoint toe om alle docenten in te zien voor de rol beheerder. Zorg ook dat dit in de front-end een fetch-request wordt gedaan naar dit endpoint en dat het mooi weergegeven wordt. 
+  
 ### Klaar!
