@@ -49,7 +49,7 @@ Zorg dat IdentityServer werkt en je een geldige jwt token terugkrijgt. Dit gaan 
 - Om te testen of je met andere accounts ook in kan loggen en andere rollen te zien krijgt, moet je TestUsers.cs openen in de identityServer back-end. Probeer ook met deze accounts in te loggen en controlleer de token. 
 
 ## Stap 5
-Op de landingspagina zie je dat je allerlij informatie te zien krijgt, waaronder ook gevoelige informatie dat een Alice als leerling niet mag zien! Dit gaan we voorkomen door RBAC toe te passen in de resource back-end. 
+Op de landingspagina zie je dat je allerlei informatie te zien krijgt, waaronder ook gevoelige informatie dat een Alice als leerling niet mag zien! Dit gaan we voorkomen door RBAC toe te passen in de resource back-end. 
 - Kijk op het scherm naar de presentatie. Hier staat welke rol wat in mag zien. 
 - Open workshopApi. Open Program.cs en voeg authorization toe: `builder.Services.AddAuthorization`.
 - Open nu de Controllers. Gebruik `Authorize` bij de endpoints om ervoor te zorgen dat alleen die rol dat endpoint op kan halen. Tip: je kan meerdere rollen hierbij toevoegen.
