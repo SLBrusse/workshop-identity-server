@@ -21,7 +21,7 @@ public static class Config
         {
             new Client
             {
-                ClientId = "blazor-client",
+                ClientId = "workshop-client",
                 AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                 RequirePkce = true,
                 RequireClientSecret = false,

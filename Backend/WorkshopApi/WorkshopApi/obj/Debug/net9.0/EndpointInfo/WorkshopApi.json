@@ -29,10 +29,10 @@
         }
       }
     },
-    "/school/grades": {
+    "/sensitive/information": {
       "get": {
         "tags": [
-          "SchoolInformation"
+          "SensitiveInformation"
         ],
         "responses": {
           "200": {
@@ -41,10 +41,31 @@
         }
       }
     },
-    "/student/information": {
+    "/sensitive/grades": {
       "get": {
         "tags": [
-          "StudentInformation"
+          "SensitiveInformation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/sensitive/grade": {
+      "get": {
+        "tags": [
+          "SensitiveInformation"
+        ],
+        "parameters": [
+          {
+            "name": "naam",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {

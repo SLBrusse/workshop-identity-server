@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="alsami.Duende.IdentityServer.AspNetCore.Testing" Version="8.2.0" />
     <PackageReference Include="Duende.IdentityServer" Version="7.2.3" />
   </ItemGroup>
 
