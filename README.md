@@ -33,6 +33,7 @@ Zorg dat IdentityServer werkt en je een geldige jwt token terugkrijgt. Dit gaan 
 [Quickstart 5: Using ASP.NET Identity – Duende IdentityServer](https://docs.duendesoftware.com/identityserver/quickstarts/5-aspnetid/)
 - **Clients**: hoe definieer je toegestane grant types, scopes en redirect URIs?
 - **ApiScopes**: hoe definieer je welke informatie gedeeld mag worden?
+- Zoek nog uit wat op de plek van * moet komen: new ApiScope("*", "Toegang tot API", new[] { "role", "name" })
 - **IdentityResources**: hoe zorg je ervoor dat de `role` meegegeven wordt in het token?
 - Tip: kijk naar de waardes die je via postman mee moet sturen. 
 
