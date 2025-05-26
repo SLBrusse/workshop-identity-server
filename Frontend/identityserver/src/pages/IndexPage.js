@@ -21,11 +21,11 @@ function IndexPage() {
       if (!res.ok) {
         alert('Verkeerde naam of wachtwoord');
         return;
+      }else if (res.ok) {
+              //localstorage de token opslaan
+
+              navigate('/home');
       }
-
-      //localstorage de token opslaan
-
-      navigate('/home');
     } catch (err) {
       console.error('Login fout:', err);
       alert('Inloggen mislukt. Probeer het opnieuw.');
