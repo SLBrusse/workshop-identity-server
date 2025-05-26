@@ -42,3 +42,30 @@ public static class Config
       return Ok(InMemoryData.Lessen);
   }
 
+## Login fetch:
+ try {
+      // Stap 4
+      const formData = new URLSearchParams();
+      formData.append('client_id', 'workshop-client');
+      formData.append('client_secret', 'secret');
+      formData.append('grant_type', 'password');
+      formData.append('username', username);
+      formData.append('password', password);
+
+      const res = await fetch('https://localhost:7240/connect/token', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: formData.toString(),
+      });
+
+      if (!res.ok) {
+        alert('Verkeerde naam of wachtwoord');
+        return;
+      }
+
+      const data = await res.json();
+      localStorage.setItem('token', data.access_token);
+      navigate('/home');
+    } catch (err)

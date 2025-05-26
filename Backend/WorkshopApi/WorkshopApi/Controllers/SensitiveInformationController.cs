@@ -11,7 +11,6 @@ namespace ResourceBackend.Controllers
     public class SensitiveInformationController : ControllerBase
     {
         [HttpGet("information")]
-        [Authorize(Roles = "SLB")]
         public IActionResult GetAllStudentInformation()
         {
             var result = InMemoryData.Leerlingen
@@ -22,7 +21,6 @@ namespace ResourceBackend.Controllers
         }
 
         [HttpGet("grades")]
-        [Authorize(Roles = "Docent")]
         public IActionResult GetAllGrades()
         {
             var result = InMemoryData.Leerlingen
@@ -33,7 +31,6 @@ namespace ResourceBackend.Controllers
         }
 
         [HttpGet("grade")]
-        [Authorize(Roles = "Leerling")]
         public IActionResult GetGradeByName([FromQuery] string naam)
         {
             if (string.IsNullOrWhiteSpace(naam))

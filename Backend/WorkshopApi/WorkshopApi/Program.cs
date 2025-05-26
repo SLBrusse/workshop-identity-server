@@ -26,7 +26,7 @@ builder.Services.AddAuthentication("Bearer")
     });
 
 //stap 5. 
-builder.Services.AddAuthorization();
+
 
 var app = builder.Build();
 

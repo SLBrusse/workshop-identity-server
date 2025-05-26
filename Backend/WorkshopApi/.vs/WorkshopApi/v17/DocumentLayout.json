@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF5BEFDA-28AE-7603-040D-593562AC6BD5}|IdentityServer\\IdentityServer.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5BEFDA-28AE-7603-040D-593562AC6BD5}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|solutionrelative:workshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF5BEFDA-28AE-7603-040D-593562AC6BD5}|IdentityServer\\IdentityServer.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\identityserver\\config\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5BEFDA-28AE-7603-040D-593562AC6BD5}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\config\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\controllers\\sensitiveinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|solutionrelative:workshopapi\\controllers\\sensitiveinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|c:\\users\\kevin\\desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\backend\\workshopapi\\workshopapi\\controllers\\schoolinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238DCFD-ADCD-4CF3-B0E4-B19BB6FA0A91}|WorkshopApi\\WorkshopApi.csproj|solutionrelative:workshopapi\\controllers\\schoolinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Program.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Program.cs",
-              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Program.cs",
-              "RelativeToolTip": "IdentityServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SensitiveInformationController.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SensitiveInformationController.cs",
+              "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\SensitiveInformationController.cs",
+              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SensitiveInformationController.cs",
+              "RelativeToolTip": "WorkshopApi\\Controllers\\SensitiveInformationController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T10:18:16.993Z",
+              "WhenOpened": "2025-05-26T10:43:17.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Config\\Config.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Config\\Config.cs",
-              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\IdentityServer\\Config\\Config.cs",
-              "RelativeToolTip": "IdentityServer\\Config\\Config.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SchoolInformationController.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
+              "RelativeDocumentMoniker": "WorkshopApi\\Controllers\\SchoolInformationController.cs",
+              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Controllers\\SchoolInformationController.cs",
+              "RelativeToolTip": "WorkshopApi\\Controllers\\SchoolInformationController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T10:13:45.754Z",
+              "WhenOpened": "2025-05-26T10:43:06.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Program.cs",
+              "RelativeDocumentMoniker": "WorkshopApi\\Program.cs",
+              "ToolTip": "C:\\Users\\kevin\\Desktop\\han\\projecten\\nots wap\\workshop\\workshop-identity-server\\Backend\\WorkshopApi\\WorkshopApi\\Program.cs",
+              "RelativeToolTip": "WorkshopApi\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:42:55.274Z",
               "EditorCaption": ""
             }
           ]

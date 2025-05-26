@@ -14,7 +14,6 @@ npm install
  ```
 
 ## Stap 1
-- In de back-end folder, open het IdentityServer bestand. Voeg de `Duende.IdentityServer` NuGet package toe aan het project. 
 - Open postman. Start een `POST` request naar `https://{plaats hier jouw localhost adres}/connect/token`. Open het `body` tabje, klik op `x-www-form-urlencoded` en voeg dit toe:
 
 | Key           | Value          |
@@ -29,7 +28,7 @@ npm install
 
 ## Stap 2
 Zorg dat IdentityServer werkt en je een geldige jwt token terugkrijgt. Dit gaan we doen door:
-- In program.cs moet identityServer juist geconfigureerd worden. 
+- In de back-end folder, open het IdentityServer bestand. Voeg de `Duende.IdentityServer` NuGet package toe aan het project. 
 - Config.cs moet juist opgebouwd worden. Gebruik hiervoor de blauwdruk van Config.cs en deze documentatie:
 [Quickstart 5: Using ASP.NET Identity – Duende IdentityServer](https://docs.duendesoftware.com/identityserver/quickstarts/5-aspnetid/)
 - **Clients**: hoe definieer je toegestane grant types, scopes en redirect URIs?
@@ -50,7 +49,7 @@ Zorg dat IdentityServer werkt en je een geldige jwt token terugkrijgt. Dit gaan 
 
 ## Stap 5
 Op de landingspagina zie je dat je allerlij informatie te zien krijgt, waaronder ook gevoelige informatie dat een Alice als leerling niet mag zien! Dit gaan we voorkomen door RBAC toe te passen in de resource back-end. 
-- Kijk op het scherm. Hier staat welke rol wat in mag zien. 
+- Kijk op het scherm naar de presentatie. Hier staat welke rol wat in mag zien. 
 - Open workshopApi. Open Program.cs en voeg authorization toe: `builder.Services.AddAuthorization`.
 - Open nu de Controllers. Gebruik `Authorize` bij de endpoints om ervoor te zorgen dat alleen die rol dat endpoint op kan halen. Tip: je kan meerdere rollen hierbij toevoegen.
 - Doe dit voor ieder endpoint. Log in op de 4 mogelijke accounts (met verschillende rollen) en kijk of je de gevoelige informatie nu succesvol hebt afgeschermd. 

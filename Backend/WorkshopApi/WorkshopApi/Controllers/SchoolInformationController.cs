@@ -12,7 +12,6 @@ namespace ResourceBackend.Controllers
     public class SchoolInformationController : ControllerBase
     {
         [HttpGet("students")]
-        [Authorize(Roles = "Docent,SLB")]
         public IActionResult GetStudentNames()
         {
             var namen = InMemoryData.Leerlingen
@@ -23,7 +22,6 @@ namespace ResourceBackend.Controllers
         }
 
         [HttpGet("lessons")]
-        [Authorize(Roles = "Leerling,Docent")]
         public IActionResult GetLessons()
         {
             return Ok(InMemoryData.Lessen);
