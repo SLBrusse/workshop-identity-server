@@ -14,7 +14,7 @@ npm install
  ```
 
 ## Stap 1
-- In de back-end folder, open het IdentityServer bestand. Voeg de `Duende.IdentityServer` NuGet package toe aan het project. 
+- In de back-end folder, open het IdentityServer bestand. Voeg de `Duende.IdentityServer` NuGet package toe aan het project en run dit project. 
 - Open postman. Start een `POST` request naar het identityServer project in de backend: `https://{plaats hier jouw localhost adres}/connect/token` (localhost adres staat in bestand launchsettings (7240)). Open het `body` tabje, klik op `x-www-form-urlencoded` en voeg dit toe:
 
 | Key           | Value          |
