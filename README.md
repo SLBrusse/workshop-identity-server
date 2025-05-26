@@ -42,7 +42,7 @@ Zorg dat IdentityServer werkt en je een geldige jwt token terugkrijgt. Dit gaan 
 - Kopieer de token en gebruik [jwt.io](https://jwt.io) om de inhoud van de token in te zien. Als je de rol van 'Alice' kan achterhalen, werkt het. 
 
 ## Stap 4
-- Open nu de front-end en run de applicatie met `npm start`. De volgende stap is om het inloggen werkend te krijgen met de identityServer (run dit project dus in de back-end).
+- Open nu de front-end en run de applicatie met `npm start`. Open ook de back-end WorkshopAPI en start dit project. De volgende stap is om het inloggen werkend te krijgen met de identityServer (run dit project dus in de back-end).
 - Open nu het bestand `IndexPage.js`. In functie handleLogin moet je een fetch request naar de identityServer doen om een geldige token terug te krijgen. 
 - Voeg `const formData = new URLSearchParams();` toe en gebruik `formdata.append` om de benodigde waardes in de body mee te kunnen sturen die je ook nodig had met Postman (tip: dit zijn er 5). 
 - Sla vervolgens de token op in de `localStorage` onder de naam `token`. Open nu de applicatie, log in en bekijk de token onder `inspect -> application -> localstorage`. Het kan zijn dat je deze eerst moet clearen. Kopieer de token weer en gebruik [jwt.io](https://jwt.io) om de rol te controlleren. 
