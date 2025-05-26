@@ -1,6 +1,8 @@
 # workshop identity-server en RBAC
 
-Welkom bij de workshop! In deze workshop gaan we ervoor zorgen dat identity server werkt zodat we succesvol in kunnen loggen en de juiste rol aan de gebruiker kunnen koppelen. Vervolgens moeten we ervoor zorgen dat gebruikers geen informatie te zien krijgen dat ze niet mogen zien, namelijk door middel van Role Based Access Control. Een leerling mag bijvoorbeeld geen gevoelige informatie over andere leerlingen of toetsen inzien.
+Welkom bij de workshop! In deze workshop gaan we ervoor zorgen dat identity server werkt zodat we succesvol in kunnen loggen en de juiste rol aan de gebruiker kunnen koppelen. Vervolgens moeten we ervoor zorgen dat gebruikers geen informatie te zien krijgen dat ze niet mogen zien, namelijk door middel van Role Based Access Control. Een leerling mag bijvoorbeeld geen gevoelige informatie over andere leerlingen of toetsen inzien. 
+
+Als je er niet uitkomt, kijk in de public folder in de front-end voor de werkende implementatie.
 
 ## Voorbereiding
 Begin met het clonen van de repository:
