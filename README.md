@@ -8,12 +8,13 @@ Als je er niet uitkomt, kijk in de public folder in de front-end voor de werkend
 Begin met het clonen van de repository:
 https://github.com/SLBrusse/workshop-identity-server.git
 
-Installeer benodigde packages:
+Installeer benodigde packages in de front-end:
 ```bash
 npm install
  ```
 
 ## Stap 1
+- In de back-end folder, open het IdentityServer bestand. Voeg de `Duende.IdentityServer` NuGet package toe aan het project. 
 - Open postman. Start een `POST` request naar `https://{plaats hier jouw localhost adres}/connect/token`. Open het `body` tabje, klik op `x-www-form-urlencoded` en voeg dit toe:
 
 | Key           | Value          |
@@ -28,7 +29,6 @@ npm install
 
 ## Stap 2
 Zorg dat IdentityServer werkt en je een geldige jwt token terugkrijgt. Dit gaan we doen door:
-- In de back-end folder, open het IdentityServer bestand. Voeg de `Duende.IdentityServer` NuGet package toe aan het project. 
 - Config.cs moet juist opgebouwd worden. Gebruik hiervoor de blauwdruk van Config.cs en deze documentatie:
 [Quickstart 5: Using ASP.NET Identity – Duende IdentityServer](https://docs.duendesoftware.com/identityserver/quickstarts/5-aspnetid/)
 - **Clients**: hoe definieer je toegestane grant types, scopes en redirect URIs?
