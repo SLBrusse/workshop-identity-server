@@ -53,10 +53,6 @@
             "Duende.IdentityServer": {
               "target": "Package",
               "version": "[7.2.3, )"
-            },
-            "alsami.Duende.IdentityServer.AspNetCore.Testing": {
-              "target": "Package",
-              "version": "[8.2.0, )"
             }
           },
           "imports": [

@@ -22,6 +22,7 @@ function HomePage() {
   const [studentNames, setStudentNames] = useState([]);
   const [lessons, setLessons] = useState([]);
   const [grades, setGrades] = useState([]);
+  const [grade, setGrade] = useState('');
   const [studentInfo, setStudentInfo] = useState([]);
   const [username, setUsername] = useState('');
   const [role, setRole] = useState('');
@@ -69,7 +70,7 @@ function HomePage() {
       });
 
     // Fetch cijfers
-    fetch('https://localhost:7285/school/grades', { headers })
+    fetch('https://localhost:7285/sensitive/grades', { headers })
       .then((res) => {
         if (!res.ok) throw new Error('Unauthorized or fetch error');
         return res.json();
@@ -81,7 +82,7 @@ function HomePage() {
       });
 
     // Fetch gevoelige informatie
-    fetch('https://localhost:7285/student/information', { headers })
+    fetch('https://localhost:7285/sensitive/information', { headers })
       .then((res) => {
         if (!res.ok) throw new Error('Unauthorized or fetch error');
         return res.json();
@@ -93,9 +94,31 @@ function HomePage() {
       });
   }, [navigate]);
 
+  useEffect(() => {
+  if (!username) return; 
+
+  const token = localStorage.getItem('token');
+  if (!token) return;
+
+  const headers = {
+    'Authorization': `Bearer ${token}`,
+  };
+  
+  // mijn cijfer
+  fetch(`https://localhost:7285/sensitive/grade?naam=${encodeURIComponent(username)}`, { headers })
+    .then((res) => {
+      if (!res.ok) throw new Error('Unauthorized or fetch error');
+      return res.json();
+    })
+    .then((data) => setGrade(data.cijfer || ''))
+    .catch((err) => {
+      console.error(err);
+      setGrade('');
+    });
+}, [username]);
+
   return (
     <>
-      {/* HEADER */}
       <Navbar bg="primary" variant="dark" className="px-3">
         <Navbar.Brand href="/">Workshop</Navbar.Brand>
         <div className="mx-auto text-white">
@@ -106,7 +129,6 @@ function HomePage() {
         </Button>
       </Navbar>
 
-      {/* CONTENT */}
       <Container className="mt-5">
         {/* Studenten Namen */}
         {studentNames.length > 0 && (
@@ -139,7 +161,7 @@ function HomePage() {
         {/* Cijfers */}
         {grades.length > 0 && (
           <>
-            <h2 className="text-center mt-4 mb-3">Cijfers</h2>
+            <h2 className="text-center mt-4 mb-3">Alle Cijfers</h2>
             <ul className="text-center list-unstyled">
               {grades.map((g, idx) => (
                 <li key={idx}>
@@ -147,6 +169,19 @@ function HomePage() {
                 </li>
               ))}
             </ul>
+            <hr className="my-4" style={{ width: '75%', margin: '0 auto' }} />
+          </>
+        )}
+
+        {/* Mijn Cijfer (alleen voor Leerling) */}
+        {role === 'Leerling' && (
+          <>
+            <h2 className="text-center mt-4 mb-3">Mijn Cijfer</h2>
+            {grade ? (
+              <p className="text-center">{username}: {grade}</p>
+            ) : (
+              <p className="text-center">Geen cijfer beschikbaar.</p>
+            )}
             <hr className="my-4" style={{ width: '75%', margin: '0 auto' }} />
           </>
         )}

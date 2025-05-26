@@ -54,12 +54,10 @@ C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\IdentityServer.runtimeconfig.json
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\IdentityServer.dll
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\IdentityServer.pdb
-C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\alsami.Duende.IdentityServer.AspNetCore.Testing.dll
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\Duende.IdentityModel.dll
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\Duende.IdentityServer.dll
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\Duende.IdentityServer.Storage.dll
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
-C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\Microsoft.AspNetCore.TestHost.dll
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
@@ -73,8 +71,6 @@ C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\obj\Debug\net9.0\IdentityServer.AssemblyInfo.cs
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\obj\Debug\net9.0\IdentityServer.csproj.CoreCompileInputs.cache
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\obj\Debug\net9.0\IdentityServer.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\obj\Debug\net9.0\IdentityServer.RazorAssemblyInfo.cache
-C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\obj\Debug\net9.0\IdentityServer.RazorAssemblyInfo.cs
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\obj\Debug\net9.0\IdentityServer.sourcelink.json
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\obj\Debug\net9.0\scopedcss\bundle\IdentityServer.styles.css
 C:\Users\kevin\Desktop\han\projecten\nots wap\workshop\workshop-identity-server\Backend\WorkshopApi\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json

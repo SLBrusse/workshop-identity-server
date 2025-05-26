@@ -8,7 +8,8 @@ namespace WorkshopApi.Data
         {
             new Leerling { Naam = "Piet", Cijfer = 7, Informatie = "heeft 2 benen 1 arm" },
             new Leerling { Naam = "Sanne", Cijfer = 9, Informatie = "draagt een bril" },
-            new Leerling { Naam = "Ali", Cijfer = 6, Informatie = "heeft een groene jas" }
+            new Leerling { Naam = "Ali", Cijfer = 6, Informatie = "heeft een groene jas" },
+            new Leerling { Naam = "alice", Cijfer = 8, Informatie = "Is alergisch voor noten" }
         };
 
         public static List<Docent> Docenten = new()

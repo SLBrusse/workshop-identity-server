@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "ResourceBackend.Controllers.SchoolInformationController",
-    "Method": "GetAllGrades",
-    "RelativePath": "school/grades",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ResourceBackend.Controllers.SchoolInformationController",
     "Method": "GetLessons",
     "RelativePath": "school/lessons",
     "HttpMethod": "GET",
@@ -30,9 +20,35 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ResourceBackend.Controllers.StudentInformationController",
+    "ContainingType": "ResourceBackend.Controllers.SensitiveInformationController",
+    "Method": "GetGradeByName",
+    "RelativePath": "sensitive/grade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naam",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ResourceBackend.Controllers.SensitiveInformationController",
+    "Method": "GetAllGrades",
+    "RelativePath": "sensitive/grades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ResourceBackend.Controllers.SensitiveInformationController",
     "Method": "GetAllStudentInformation",
-    "RelativePath": "student/information",
+    "RelativePath": "sensitive/information",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

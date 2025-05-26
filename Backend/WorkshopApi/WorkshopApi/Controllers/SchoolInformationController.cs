@@ -12,7 +12,7 @@ namespace ResourceBackend.Controllers
     public class SchoolInformationController : ControllerBase
     {
         [HttpGet("students")]
-        [Authorize(Policy = "AdminOnly")]
+        [Authorize(Roles = "Docent,SLB")]
         public IActionResult GetStudentNames()
         {
             var namen = InMemoryData.Leerlingen
@@ -23,19 +23,10 @@ namespace ResourceBackend.Controllers
         }
 
         [HttpGet("lessons")]
+        [Authorize(Roles = "Leerling,Docent")]
         public IActionResult GetLessons()
         {
             return Ok(InMemoryData.Lessen);
-        }
-
-        [HttpGet("grades")]
-        public IActionResult GetAllGrades()
-        {
-            var result = InMemoryData.Leerlingen
-                .Select(l => new { l.Naam, l.Cijfer })
-                .ToList();
-
-            return Ok(result);
         }
     }
 }

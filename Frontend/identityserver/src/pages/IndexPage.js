@@ -16,13 +16,13 @@ function IndexPage() {
     }
 
     try {
+      // Stap 4
       const formData = new URLSearchParams();
-      formData.append('client_id', 'blazor-client');
+      formData.append('client_id', 'workshop-client');
       formData.append('client_secret', 'secret');
       formData.append('grant_type', 'password');
       formData.append('username', username);
       formData.append('password', password);
-      // formData.append('scope', 'api1'); // Optioneel
 
       const res = await fetch('https://localhost:7240/connect/token', {
         method: 'POST',
