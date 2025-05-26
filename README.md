@@ -35,7 +35,7 @@ Zorg dat IdentityServer werkt en je een geldige jwt token terugkrijgt. Dit gaan 
 - **ApiScopes**: hoe definieer je welke informatie gedeeld mag worden?
 - Zoek nog uit wat op de plek van * moet komen: new ApiScope("*", "Toegang tot API", new[] { "role", "name" })
 - **IdentityResources**: hoe zorg je ervoor dat de `role` meegegeven wordt in het token?
-- Tip: kijk naar de waardes die je via postman mee moet sturen. 
+- Tip: kijk naar de waardes die je via postman mee moet sturen. Ook moet je bij allowedGrantTypes = GrantTypes. niet clientCredentials gebruiken, gebruiker logt namelijk in met een password. 
 
 ## Stap 3
 - Testen of het werkt. Voer de post-request weer uit via postman en kijk of je een token terugkrijgt.
