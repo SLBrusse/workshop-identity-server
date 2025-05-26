@@ -21,7 +21,7 @@ npm install
 | client_secret | secret         |
 | grant_type    | password       |
 | username      | alice          |
-| password      | password       |
+| password      | ditiseenveiligwachtwoord       |
 
 - Klik dan op send. Als het goed is krijg je een error te zien... :(
 
