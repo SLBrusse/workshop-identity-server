@@ -10,14 +10,12 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddRazorPages(); // <-- toevoegen
+builder.Services.AddRazorPages();
 
 builder.Services.AddIdentityServer(options =>
 {
     options.EmitStaticAudienceClaim = true;
-    options.KeyManagement.Enabled = false; // voorkom licentie-fout
-    options.UserInteraction.LoginUrl = "/Account/Login";
-    // options.UserInteraction.LogoutUrl = "/Account/Logout";
+    options.KeyManagement.Enabled = false; 
 })
 .AddInMemoryClients(Config.Clients)
 .AddInMemoryIdentityResources(Config.IdentityResources)
@@ -33,14 +31,14 @@ app.UseCors("AllowReactApp");
 
 app.UseHttpsRedirection();
 
-app.UseRouting(); // <-- toevoegen
+app.UseRouting(); 
 
 app.UseIdentityServer();
 
 app.UseAuthorization();
 
-app.MapRazorPages(); // <-- toevoegen
+app.MapRazorPages();
 
-app.UseDeveloperExceptionPage(); // optioneel
+app.UseDeveloperExceptionPage();
 
 app.Run();
